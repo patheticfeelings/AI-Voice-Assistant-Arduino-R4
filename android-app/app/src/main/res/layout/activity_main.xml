@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.microsoft.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/texto_reconhecido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="O texto aparecerá aqui..."
+        android:textSize="18sp"
+        android:layout_marginBottom="20dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/botao_falar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iniciar Reconhecimento"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/botao_enviar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar para Arduino" />
+
+</LinearLayout>
